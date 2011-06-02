@@ -1,0 +1,26 @@
+.thumb
+{
+display:block;
+float:left;
+margin-left:4px;
+}
+
+.thumb a
+{
+display:block;
+width:200px;
+height:150px;
+background-position: center middle;
+border:1px solid #cdcdcd;
+overflow:hidden;
+}
+
+#gal_preview
+{
+	display:block;
+	width:400px;
+	height:300px;
+	overflow:hidden;
+	background-color: #cdcdcd;
+	margin:4px;
+}

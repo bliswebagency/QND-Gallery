@@ -1,0 +1,39 @@
+This is a quick and dirty JQuery Gallery we've put together. The idea is that you can drop it in anywhere.
+
+We're using a few different libraries; please respect the EULA's associated with each of the follow:
+
+Colorbox - http://colorpowered.com/colorbox/
+TimThumb - http://code.google.com/p/timthumb/
+
+My version of ColorBox is "slightly" hacked to work with TimThumb. I've left it uncompressed for this reason - compress it as you please.
+
+--------------------------------------
+How it Works
+--------------------------------------
+
+To kick things off we have a stub file: page.php
+
+This file simply loads "embed.php" and determines whether or not you want it to also load JQuery for you. It is OFF by default.
+
+The magic happens inside: embed.php
+
+Outside of including all the wonderful libraries listed above, this page also creates 2 DIVs
+
+1. Preview
+2. Gallery
+
+Preview is a box which will display the thumbnail you're viewing as your roll over it. This feature is off by default but you can switch it on by modifying:
+
+gal_preview = false;
+to
+gal_preview = true;
+
+Just above this you'll also see that you can change the default values for your MAX height and width of each thumb, preview and full scale image.
+
+The Gallery DIV is just about providing a container for your thumbnails. Changing the width and height of this will change how many rows of thumbnails you'll get.
+
+FINALLY, we'll take a quick look at common/listfiles/listfiles.php
+
+This file contains a snippet of HTML which defines how your thumbnail is constructed. Tweak this as you please but remember that JQuery will be looking for certain attributes... so make sure you know what you're doing before you get too far into this.
+
+That's all. Enjoy.
