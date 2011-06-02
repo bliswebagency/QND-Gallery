@@ -36,4 +36,14 @@ FINALLY, we'll take a quick look at common/listfiles/listfiles.php
 
 This file contains a snippet of HTML which defines how your thumbnail is constructed. Tweak this as you please but remember that JQuery will be looking for certain attributes... so make sure you know what you're doing before you get too far into this.
 
-That's all. Enjoy.
+--------------------------------------
+Getting it Going
+--------------------------------------
+
+Now you understand how all the cogs are turing, the rest is simple.
+
+1. Download the Zip, extract it and upload the file to your server (in a sub directory works well)
+2. Embed the gallery file (embed.php) into one of your PHP pages just like we have in the "page.php" file included
+3. Upload whatever photos you want to the images/gal folder. The script will display these in alphabetical order, so name your files accordingly.
+
+That's it. Three simple steps and you're done.
